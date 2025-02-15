@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+:root {
+  --LightCyan: hsl(193, 38%, 86%);
+  --NeonGreen: hsl(150, 100%, 66%);
+  --GrayishBlue: hsl(217, 19%, 38%);
+  --DarkGrayishBlue: hsl(217, 19%, 24%);
+  --DarkBlue: hsl(218, 23%, 16%);
+}
+
+h1{
+  color: var(--NeonGreen);
+}
+
+body{
+  background-color: var(--DarkBlue);
+}
+ main{
+  background-color: var(--DarkGrayishBlue);
+} 
+
+p{
+  font-family: "Manrope","serif";
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--LightCyan);
+}
+
+.dice-img{
+  background-color: var(--NeonGreen);
+  
+}
