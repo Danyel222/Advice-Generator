@@ -9,7 +9,7 @@ async function getAdvice() {
         let req = await fetch(`https://api.adviceslip.com/advice?timestamp=${new Date().getTime()}`);
         let res = await req.json();
         
-        adviceID.innerText = `ADVICE #${res.slip.id}`;
+        adviceID.innerText = `${res.slip.id}`;
         adviceText.innerText = `"${res.slip.advice}"`;
         
     } catch (error) {
